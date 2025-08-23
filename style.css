@@ -140,6 +140,21 @@ body {
   .menu.show {
     display: flex;
   }
+
+  .intro__caption {
+    text-align: center;
+    margin-top: -20px;
+  }
+  .intro__caption p {
+    font-size: 20px;
+  }
+  .footer__inner {
+    text-align: center;
+  }
+  .icon {
+    width: 40px;
+    margin-right: 10px;
+  }
 }
 .hover-underline-animation {
   display: inline-block;
@@ -192,6 +207,13 @@ body {
     right: 0%;
     max-width: 500px;
   }
+  .footer__inner {
+    display: flex;
+  }
+  .icon {
+    width: 50px;
+    margin-right: 20px;
+  }
 }
 .footer {
   border-top: 1px solid #eee;
@@ -201,7 +223,6 @@ body {
   max-width: var(--max);
   margin: 0 auto;
   padding: 32px 24px;
-  display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 24px;
@@ -223,8 +244,6 @@ copyright,.copyright {
   background-color: #e4e3e2;
 }
 .icon {
-  width: 50px;
-  margin-right: 20px;
   transform: translateY(25%);
 }
 #contact h3 {
